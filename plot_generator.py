@@ -22,7 +22,7 @@ dispsource=ColumnDataSource(data=dict(x=dates,
                                   y=stats))
 
 eventdates=[datetime.date(2004,6,22),datetime.date(2014,3,8),datetime.date(2017,6,14)]
-labeltext=['Seti@home starts to use BOINC','BOINC Utopia Begins','BOINC Utopia Ends']
+labeltext=['Seti@home starts to use BOINC','Bitcoin Utopia Begins','Bitcoin Utopia Ends']
 eventstats=[]
 for date in eventdates:
     closestdate=min(dates, key=lambda x:abs(x-date)) #find the closest date in dates
