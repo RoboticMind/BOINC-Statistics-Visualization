@@ -1,6 +1,5 @@
 # BOINC-Statistics-Visualization
-Interactive visual for viewing total BOINC credits
-
+Interactive visual for viewing total BOINC credits. View it [here](https://roboticmind.github.io/BOINC-Statistics-Visualization/).
 ### Webpage Information
 Informational & interactive chart site is on the [gh-pages branch](https://github.com/RoboticMind/BOINC-Statistics-Visualization/tree/gh-pages)
 
