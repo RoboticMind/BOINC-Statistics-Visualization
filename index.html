@@ -106,13 +106,13 @@
         <div class="container-width">
             <div class="blk-title">Methodology<br></div>
             <div class="blk-desc blk-left">
-                <div>Data collection was done across various different BOINC statistics sites. Since these sites didn't have a public archive of statistics, <a href="https://web.archive.org" class="link">web.archive.org</a> copy of pages were used. <br></div>
+                <div>Data collection was done across various different BOINC statistics sites. One of these sites did send a partial archive of statistics. Since the rest didn't have a public archive of statistics, <a href="https://web.archive.org" class="link">web.archive.org</a> copy of pages were used. <br></div>
                 <br>
             </div>
             <div class="blk-desc">
                 <div>These sites were:</div>
                 <div><a href="https://web.archive.org/web/20120521232853/http://boincstats.com/en/stats/-1/project/detail/lastDays" target="_blank" class="link gjs-hovered">BOINC Stats</a></div>
-                <div><a href="https://web.archive.org/web/20110926001508/http://boinc.netsoft-online.com/e107_plugins/boinc/bp.php?project=1" target="_blank" class="link gjs-hovered">boinc.netsoft-online.com</a></div>
+                <div><a href="https://web.archive.org/web/20110926001508/http://boinc.netsoft-online.com/e107_plugins/boinc/bp.php?project=1" target="_blank" class="link gjs-hovered">boinc.netsoft-online.com</a> (sent the partial archive)</div>
                 <div><a href="https://web.archive.org/web/20040708115523/http://predictor.scripps.edu/totstat.php" target="_blank" class="link gjs-hovered">predictor.scripps.edu:</a></div>
                 <div><a href="https://web.archive.org/web/20050224014322/http://www.boincsynergy.com/stats/" target="_blank" class="link gjs-hovered">Boinc Synergy</a></div>
                 <br>
@@ -121,6 +121,7 @@
                 <div>The data was taken semi-automatically in the case of BOINC Stats 40 day recent credit and manually for the rest due to the changing nature of the sites. <br></div>
                 <br>
                 <div>The earliest data came from predictor.sripss.edu with it being the first BOINC project. When <a class="link" target="_blank" href="https://setiathome.berkeley.edu/">Seti@home</a> ended their beta, data was no longer taken from this site due to the fact that after that point only account for one of the projects.<br></div>
+                <br> Data added from the data sent by owner of boinc.netsoft-online.com can be seen <a href="https://github.com/RoboticMind/BOINC-Statistics-Visualization/commit/215326b8b514070580f483e09369fb7b245b7462" target="_blank">here</a> <br>
                 <br> The rest of the sources, excluding BOINC Synergy, had data taken without having to stop taking data at any point since these sites are still operating today. On occasion, datapoints from the same day conflicted with each other. When this happened, the source with the most nearby data points was used to ensure a more accurate trendline.<br>
                 <br> For interpreting data, see the sourcecode <a target="_blank" class="link" href="https://github.com/RoboticMind/BOINC-Statistics-Visualization/">here</a>. Some extrapolation was done with the Credit per day. If there was a listed credit per day and a total credit on that day, the credits made on the day would be subtracted from the total credits on that day. That would go into total credits column on the date one day before.
             </div>
